@@ -21,7 +21,7 @@ setup(
     long_description=open("README.rst").read(),
 
     package_dir={"django_twilio_sms": "src"},
-    packages=["django_twilio_sms"],
+    packages=["django_twilio_sms", "django_twilio_sms.migrations"],
     include_package_data=True,
     classifiers=[
         "Development Status :: 4 - Beta",
